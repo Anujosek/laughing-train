@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-08T16:16:21 EST" name="Suite" finished-at="2022-11-08T16:16:40 EST" duration-ms="18796">
+    <groups>
+    </groups>
+    <test started-at="2022-11-08T16:16:21 EST" name="Test" finished-at="2022-11-08T16:16:40 EST" duration-ms="18796">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:tests.LoginTest@13d73f29]" started-at="2022-11-08T16:16:21 EST" name="openApplication" finished-at="2022-11-08T16:16:30 EST" duration-ms="8704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@13d73f29]" started-at="2022-11-08T16:16:30 EST" name="login" data-provider="getLoginData" finished-at="2022-11-08T16:16:32 EST" duration-ms="2401" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anu.aimit.2010@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Successful]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:tests.LoginTest@13d73f29]" started-at="2022-11-08T16:16:32 EST" name="closure" finished-at="2022-11-08T16:16:33 EST" duration-ms="342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:tests.LoginTest@13d73f29]" started-at="2022-11-08T16:16:33 EST" name="openApplication" finished-at="2022-11-08T16:16:38 EST" duration-ms="5079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@13d73f29]" started-at="2022-11-08T16:16:38 EST" name="login" data-provider="getLoginData" finished-at="2022-11-08T16:16:40 EST" duration-ms="1760" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dummy@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dummy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[failure]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:tests.LoginTest@13d73f29]" started-at="2022-11-08T16:16:40 EST" name="closure" finished-at="2022-11-08T16:16:40 EST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.FourTest">
+        <test-method signature="testFour()[pri:0, instance:tests.FourTest@37313c65]" started-at="2022-11-08T16:16:21 EST" name="testFour" finished-at="2022-11-08T16:16:21 EST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFour -->
+      </class> <!-- tests.FourTest -->
+      <class name="tests.ThreeTest">
+        <test-method signature="testThree()[pri:0, instance:tests.ThreeTest@68878f6d]" started-at="2022-11-08T16:16:40 EST" name="testThree" finished-at="2022-11-08T16:16:40 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThree -->
+      </class> <!-- tests.ThreeTest -->
+      <class name="tests.TwoTest">
+        <test-method signature="testtwo()[pri:0, instance:tests.TwoTest@700fb871]" started-at="2022-11-08T16:16:21 EST" name="testtwo" finished-at="2022-11-08T16:16:21 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testtwo -->
+      </class> <!-- tests.TwoTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
